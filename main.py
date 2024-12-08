@@ -3,7 +3,7 @@ import streamlit as st
 import langchain_openai
 from langchain_openai import ChatOpenAI
 
-openai.api_key = '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'
+openai.api_key = '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'
 # ChatOpenAI 객체 생성 시 API 키 전달
 chat_model = ChatOpenAI(api_key=openai.api_key)
 
